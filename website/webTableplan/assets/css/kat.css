@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+* {
+    box-sizing: border-box;
+}
+body{
+    margin-left: 2cm;
+    margin-right: 2cm;  
+}
+
+
+.star{
+  color: goldenrod;
+  font-size: 2rem;
+  padding: 0 0rem; /* space out the stars */
+}
+.star::before{
+  content: '\2606';    /* star outline */
+  cursor: pointer;
+}
+.star.rated::before{
+  /* the style for a selected star */
+  content: '\2605';  /* filled star */
+}
+
+.stars{
+    counter-reset: rateme 0;   
+    font-size: 2rem;
+    font-weight: 2;
+}
+.star.rated{
+    counter-increment: rateme 1;
+}
+.stars::after{
+    content: counter(rateme) '/5';
+}
+
+.star1{
+  color: goldenrod;
+  font-size: 2rem;
+  padding: 0 0rem; /* space out the stars */
+}
+.star1::before{
+  content: '\2606';    /* star outline */
+  cursor: pointer;
+}
+.star1.rated1::before{
+  /* the style for a selected star */
+  content: '\2605';  /* filled star */
+}
+
+.stars1{
+    counter-reset: rateme1 0;   
+    font-size: 2rem;
+    font-weight: 2;
+}
+.star1.rated1{
+    counter-increment: rateme1 1;
+}
+.stars1::after{
+    content: counter(rateme1) '/5';
+}
+
+.star2{
+  color: goldenrod;
+  font-size: 2rem;
+  padding: 0 0rem; /* space out the stars */
+}
+.star2::before{
+  content: '\2606';    /* star outline */
+  cursor: pointer;
+}
+.star2.rated2::before{
+  /* the style for a selected star */
+  content: '\2605';  /* filled star */
+}
+
+.stars2{
+    counter-reset: rateme1 0;   
+    font-size: 2rem;
+    font-weight: 2;
+}
+.star2.rated2{
+    counter-increment: rateme1 1;
+}
+.stars2::after{
+    content: counter(rateme1) '/5';
+}
+
+.star3{
+  color: goldenrod;
+  font-size: 2rem;
+  padding: 0 0rem; /* space out the stars */
+}
+.star3::before{
+  content: '\2606';    /* star outline */
+  cursor: pointer;
+}
+.star3.rated3::before{
+  /* the style for a selected star */
+  content: '\2605';  /* filled star */
+}
+
+.stars3{
+    counter-reset: rateme 0;   
+    font-size: 2rem;
+    font-weight: 2;
+}
+.star3.rated3{
+    counter-increment: rateme 1;
+}
+.stars3::after{
+    content: counter(rateme) '/5';
+}
+
+.star4{
+  color: goldenrod;
+  font-size: 2rem;
+  padding: 0 0rem; /* space out the stars */
+}
+.star4::before{
+  content: '\2606';    /* star outline */
+  cursor: pointer;
+}
+.star4.rated4::before{
+  /* the style for a selected star */
+  content: '\2605';  /* filled star */
+}
+
+.stars4{
+    counter-reset: rateme 0;   
+    font-size: 2rem;
+    font-weight: 2;
+}
+.star4.rated4{
+    counter-increment: rateme 1;
+}
+.stars4::after{
+    content: counter(rateme) '/5';
+}
+
+.star5{
+  color: goldenrod;
+  font-size: 2rem;
+  padding: 0 0rem; /* space out the stars */
+}
+.star5::before{
+  content: '\2606';    /* star outline */
+  cursor: pointer;
+}
+.star5.rated5::before{
+  /* the style for a selected star */
+  content: '\2605';  /* filled star */
+}
+
+.stars5{
+    counter-reset: rateme 0;   
+    font-size:2rem;
+    font-weight: 2;
+}
+.star5.rated5{
+    counter-increment: rateme 1;
+}
+.stars5::after{
+    content: counter(rateme) '/5';
+}
+
+.star6{
+  color: goldenrod;
+  font-size: 2rem;
+  padding: 0 0rem; /* space out the stars */
+}
+.star6::before{
+  content: '\2606';    /* star outline */
+  cursor: pointer;
+}
+.star6.rated6::before{
+  /* the style for a selected star */
+  content: '\2605';  /* filled star */
+}
+
+.stars6{
+    counter-reset: rateme 0;   
+    font-size: 2rem;
+    font-weight: 2;
+}
+.star6.rated6{
+    counter-increment: rateme 1;
+}
+.stars6::after{
+    content: counter(rateme) '/5';
+}
+
+
+.star7{
+    color: goldenrod;
+    font-size: 2rem;
+    padding: 0 0rem; /* space out the stars */
+  }
+  .star7::before{
+    content: '\2606';    /* star outline */
+    cursor: pointer;
+  }
+  .star7.rated7::before{
+    /* the style for a selected star */
+    content: '\2605';  /* filled star */
+  }
+  
+  .stars7{
+      counter-reset: rateme 0;   
+      font-size: 2rem;
+      font-weight: 2;
+  }
+  .star7.rated7{
+      counter-increment: rateme 1;
+  }
+  .stars7::after{
+      content: counter(rateme) '/5';
+  }
+
+  .star8{
+    color: goldenrod;
+    font-size: 2rem;
+    padding: 0 0rem; /* space out the stars */
+  }
+  .star8::before{
+    content: '\2606';    /* star outline */
+    cursor: pointer;
+  }
+  .star8.rated8::before{
+    /* the style for a selected star */
+    content: '\2605';  /* filled star */
+  }
+  
+  .stars8{
+      counter-reset: rateme 0;   
+      font-size:2rem;
+      font-weight: 2;
+  }
+  .star8.rated8{
+      counter-increment: rateme 1;
+  }
+  .stars8::after{
+      content: counter(rateme) '/5';
+  }
+
+  .star9{
+    color: goldenrod;
+    font-size: 2rem;
+    padding: 0 0rem; /* space out the stars */
+  }
+  .star9::before{
+    content: '\2606';    /* star outline */
+    cursor: pointer;
+  }
+  .star9.rated9::before{
+    /* the style for a selected star */
+    content: '\2605';  /* filled star */
+  }
+  
+  .stars9{
+      counter-reset: rateme 0;   
+      font-size:2rem;
+      font-weight: 2;
+  }
+  .star9.rated9{
+      counter-increment: rateme 1;
+  }
+  .stars9::after{
+      content: counter(rateme) '/5';
+  }
+
+
+  .star10{
+    color: goldenrod;
+    font-size: 2rem;
+    padding: 0 0rem; /* space out the stars */
+  }
+  .star10::before{
+    content: '\2606';    /* star outline */
+    cursor: pointer;
+  }
+  .star10.rated10::before{
+    /* the style for a selected star */
+    content: '\2605';  /* filled star */
+  }
+  
+  .stars10{
+      counter-reset: rateme 0;   
+      font-size:2rem;
+      font-weight: 2;
+  }
+  .star10.rated10{
+      counter-increment: rateme 1;
+  }
+  .stars10::after{
+      content: counter(rateme) '/5';
+  }
+
+
+  .star11{
+    color: goldenrod;
+    font-size: 2rem;
+    padding: 0 0rem; /* space out the stars */
+  }
+  .star11::before{
+    content: '\2606';    /* star outline */
+    cursor: pointer;
+  }
+  .star11.rated11::before{
+    /* the style for a selected star */
+    content: '\2605';  /* filled star */
+  }
+  
+  .stars11{
+      counter-reset: rateme 0;   
+      font-size:2rem;
+      font-weight: 2;
+  }
+  .star11.rated11{
+      counter-increment: rateme 1;
+  }
+  .stars11::after{
+      content: counter(rateme) '/5';
+  }
+
+
+  .star12{
+    color: goldenrod;
+    font-size: 2rem;
+    padding: 0 0rem; /* space out the stars */
+  }
+  .star12::before{
+    content: '\2606';    /* star outline */
+    cursor: pointer;
+  }
+  .star12.rated12::before{
+    /* the style for a selected star */
+    content: '\2605';  /* filled star */
+  }
+  
+  .stars12{
+      counter-reset: rateme 0;   
+      font-size:2rem;
+      font-weight: 2;
+  }
+  .star12.rated12{
+      counter-increment: rateme 1;
+  }
+  .stars12::after{
+      content: counter(rateme) '/5';
+  }
+
+
+  .star13{
+    color: goldenrod;
+    font-size: 2rem;
+    padding: 0 0rem; /* space out the stars */
+  }
+  .star13::before{
+    content: '\2606';    /* star outline */
+    cursor: pointer;
+  }
+  .star13.rated13::before{
+    /* the style for a selected star */
+    content: '\2605';  /* filled star */
+  }
+  
+  .stars13{
+      counter-reset: rateme 0;   
+      font-size:2rem;
+      font-weight: 2;
+  }
+  .star13.rated13{
+      counter-increment: rateme 1;
+  }
+  .stars13::after{
+      content: counter(rateme) '/5';
+  }
+
+
+  .star14{
+    color: goldenrod;
+    font-size: 2rem;
+    padding: 0 0rem; /* space out the stars */
+  }
+  .star14::before{
+    content: '\2606';    /* star outline */
+    cursor: pointer;
+  }
+  .star14.rated14::before{
+    /* the style for a selected star */
+    content: '\2605';  /* filled star */
+  }
+  
+  .stars14{
+      counter-reset: rateme 0;   
+      font-size:2rem;
+      font-weight: 2;
+  }
+  .star14.rated14{
+      counter-increment: rateme 1;
+  }
+  .stars14::after{
+      content: counter(rateme) '/5';
+  }
+
+
+.mySlides {display:none;}
+
+button{
+  position: fixed;
+}
+
+
+
+.flip-card {
+background-color: transparent;
+width: 15rem;
+height: 15rem;
+perspective: 1000px;
+margin: auto;
+}
+
+.flip-card-inner {
+
+position: relative;
+width: 15rem;
+height: 15rem;
+text-align: center;
+transition: transform 0.6s;
+transform-style: preserve-3d;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: 15rem;
+height: 15rem;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.flip-card-front {
+background-color: #bbb;
+color: black;
+}
+
+.flip-card-back {
+background-color: #2980b9;
+color: white;
+transform: rotateY(180deg);
+}
+
+*{
+padding:0;
+margin:0;
+}
+
+header{
+text-align: center;
+padding-top: 100px;
+margin-bottom:190px;
+}
+
+
+#sabit{
+position: fixed;
+}
+

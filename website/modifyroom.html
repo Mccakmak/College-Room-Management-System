@@ -1,0 +1,143 @@
+<?php include('server.php') ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>T.C. ISTANBUL MEDIPOL UNIVERSITY </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+      <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar">
+          <div class="custom-menu">
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            </button>
+          </div>
+          <div class="img bg-wrap text-center py-4" style="background-image: url(images/download.jfif);">
+            <div class="user-logo">
+              <div class="img" style="background-image: url(images/erol.png);"></div>
+              <h3>Erol AKÇAY</h3>
+            </div>
+          </div>
+          <ul class="list-unstyled components mb-5">
+            <li class="active">
+              <a href="#"><span class="fa fa-home mr-3"></span> Home</a>
+            </li>
+            <li>
+                <a href="#"><span class="fa fa-download mr-3 notif"><small class="d-flex align-items-center justify-content-center">3</small></span>Inbox</a>
+            </li>
+            <li>
+              <a href="reservation/index.html"><span class="fa fa-calendar-plus-o mr-3"></span> Reservation</a>
+            </li>
+            <li>
+              <a href="#"><span class="fa fa-list mr-3"></span> Reservation List</a>
+            </li>
+            <li>
+              <a href="#"><span class="fa fa-plus-circle mr-3"></span> Add New Rooms</a>
+            </li>
+            <li>
+              <a href="#"><span class="fa fa-list mr-3"></span> Unavailable Room List</a>
+            </li>
+            <li>
+              <a href="new_navbar/index.html"><span class="fa fa-street-view mr-3"></span> 3D Floor Plan</a>
+            </li>
+            <li>
+              <a href="webTableplan/GroundFloor.html"><span class="fa fa-table mr-3"></span> Table Floor Plan</a>
+            </li>
+            <li>
+              <a href="contact/contact.html"><span class="fa fa-support mr-3"></span> Support</a>
+            </li>
+            <li>
+              <a href="AdminLogin.html"><span class="fa fa-sign-out mr-3"></span> Sign Out</a>
+            </li>
+          </ul>
+  
+        </nav>
+  
+        
+<form class="form-card">
+    <fieldset class="form-fieldset">
+        <legend class="form-legend">Modify Room</legend>
+        <div class="form-element form-input">
+            <input id="field1" class="form-element-field" placeholder="Please fill here!" type="input" required/>
+            <div class="form-element-bar"></div>
+            <label class="form-element-label" for="field1">Room Number</label>
+        </div>
+        <div class="form-element form-input">
+            <input id="field2" class="form-element-field" placeholder="Please fill here!" type="input" required/>
+            <div class="form-element-bar"></div>
+            <label class="form-element-label" for="field2">Room Floor</label>
+        </div>
+        <div class="form-element form-input">
+            <input id="field3" class="form-element-field" placeholder="Please fill here!" type="input" required/>
+            <div class="form-element-bar"></div>
+            <label class="form-element-label" for="field3">Capacity</label>
+        </div>
+        <div class="form-checkbox form-checkbox-inline">
+            <div class="form-checkbox-legend">Room Utilities:</div>
+            <br>
+            <label class="form-checkbox-label">
+                <input name=rap class="form-checkbox-field" type="checkbox" />
+                <i class="form-checkbox-button"></i>
+                <span>Projector</span>
+            </label>
+            <br>
+            <label class="form-checkbox-label">
+                <input name=pop class="form-checkbox-field" type="checkbox" />
+                <i class="form-checkbox-button"></i>
+                <span>Microphone</span>
+            </label>
+            <br>
+            <label class="form-checkbox-label">
+                <input name=rock class="form-checkbox-field" type="checkbox" />
+                <i class="form-checkbox-button"></i>
+                <span>Computer</span>
+            </label>
+            <br>
+            <label class="form-checkbox-label">
+                <input name=metal class="form-checkbox-field" type="checkbox" />
+                <i class="form-checkbox-button"></i>
+                <span>Speaker</span>
+            </label>
+        </div>
+        <div class="form-element form-select">
+            <select id="field-be1h8i-ll2hpg-q4efzm-nfjj1e-udkw5r" class="form-element-field">
+                <option disabled selected value="" class="form-select-placeholder"></option>
+                <option value="Rap">Available</option>
+                <option value="Pop">Not Available</option>
+            </select>
+            <div class="form-element-bar"></div>
+            <label class="form-element-label" for="field4">Room Availability</label>
+        </div>
+        <div class="form-element form-textarea">
+            <textarea id="field6" class="form-element-field" placeholder=" "></textarea>
+            <div class="form-element-bar"></div>
+            <label class="form-element-label" for="field6">Your Message</label>
+
+        </div>
+    </fieldset>
+    <div class="form-actions">
+        <button class="form-btn" type="submit">Add a Room</button>
+        <button class="form-btn-cancel -nooutline" type="reset">Cancel</button>
+    </div>
+    
+</form>
+
+</body>
+
+</html>
