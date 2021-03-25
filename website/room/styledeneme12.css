@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px; 
+}
+/*----Class Details Area----*/
+
+.class-details-area {
+  width: 1500px;
+  position: relative;
+  z-index: 1; 
+}
+.class-details-area .single-icon {
+  width: 20%; 
+}
+
+
+/*----Icons----*/
+.single-icon {
+  float: left;
+  position: relative;
+  z-index: 1;
+  width: 200px;
+  padding: 35px 15px;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms; 
+}
+.single-icon .si-text i {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  display: block;
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #000066; 
+}
+.single-icon .si-text p {
+  margin-bottom: 0px;
+  color: #000000; 
+}
